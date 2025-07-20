@@ -1,0 +1,68 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+main section {
+    margin: 0 auto;
+    padding: 5px 10px;
+    max-width: 1350px; /* -> Herleitung: 25 Kanji * 54px Kanji-Box = 1350px ("margin" passt genau mit dem "padding" der "section" überein)*/
+    border-radius: 5px;
+}
+
+main section.intro {
+    background-color: rgba(127, 255, 212, 0.8);
+    margin-bottom: 20px;
+}
+
+main section.kanji-table {
+    background-color: rgba(121, 220, 255, 0.8);
+    margin-bottom: 10px;
+}
+
+main section .kanji-container {
+    display: inline;
+}
+
+.kanji {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+
+    color: white;
+    background-color: #000088;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.kanji:hover {
+    background-color: #0000ff;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: none;
+    line-height: 15px;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.tooltip h2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.tooltip-header {
+    display: inline-block;
+    font-weight: bold;
+    width: 200px;
+}

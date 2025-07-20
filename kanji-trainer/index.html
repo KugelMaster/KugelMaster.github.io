@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kanji Tabelle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <script src="kanji_info.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Die Jōyō (じょうよう) Kanji</h1>
+    </header>
+    <nav></nav>
+    <main>
+        <div class="tooltip" id="tooltip">
+            <h2>Übersicht: <span class="tooltip-title"></span></h2>
+            <p><span class="tooltip-header">Bedeutung:             </span><span class="tooltip-meaning"></span></p>
+            <p><span class="tooltip-header">Kun (jap. Aussprache): </span><span class="tooltip-kun"></span></p>
+            <p><span class="tooltip-header">On (andere Aussprache):</span><span class="tooltip-on"></span></p>
+        </div>
+        <section class="intro">
+            <h2>Willkommen zur Kanji Tabelle!</h2>
+            <p>Hier wirst du die alltäglich meistgenutzten Kanji finden.</p>
+            <p>Bewege deine Maus über ein Kanji, um allgemeine Informationen über dieses herauszufinden.</p>
+            <p>Klicke auf das Kanji, um auf "<a href="https://thekanjimap.com/" target="_blank">thekanjimap.com</a>" nähere Informationen anzusehen.</p>
+            <br>
+            <p>TODO:<br>
+                1. 2010 hinzugefügte Kanjis: <a href="https://www.kanshudo.com/collections/new_joyo_kanji_2010">https://www.kanshudo.com/collections/new_joyo_kanji_2010</a><br>
+                1. Deutsche Übersetzung<br>
+                2. Hiragana/Katakana anstatt Romanji in Kun/On anzeigen
+            </p>
+        </section>
+    </main>
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
